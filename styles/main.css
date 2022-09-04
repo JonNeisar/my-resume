@@ -47,7 +47,7 @@ li{
 }
 
 #container--main{
-    max-width: 700px;
+    max-width: 750px;
     margin: auto auto;
     padding: 1em;
 }
@@ -73,8 +73,8 @@ li{
 }
 
 #profile-pic{
-    width: 250px;
-    height: 250px;
+    width: 150px;
+    height: 200px;
     object-fit: cover;
     border-radius: 20%;
 }
@@ -88,6 +88,7 @@ li{
     justify-content: space-between;
     column-gap: 1em;
     flex-wrap: wrap;
+    list-style: none;
 }
 
 #socials--list a{
@@ -95,6 +96,14 @@ li{
     color: var(--secondaryTextColor);
     font-size: 0.9em;
     transition: 0.3s;
+}
+
+#socials--list li{
+    list-style-position:inside;
+    border-radius: 5px;
+    border: 1px solid var(--mainBorderColor);
+    padding-left: 4%;
+    padding-right: 4%;
 }
 
 #socials--list a:hover{
