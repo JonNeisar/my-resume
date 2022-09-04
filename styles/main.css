@@ -48,7 +48,7 @@ li{
 
 #container--main{
     max-width: 700px;
-    margin: 0 auto;
+    margin: auto auto;
     padding: 1em;
 }
 
@@ -60,7 +60,7 @@ li{
 #wrapper--profile{
     display: flex;
     align-items: center;
-    gap: 4em;
+    gap: 2em;
 }
 
 #bio, a{
@@ -73,8 +73,8 @@ li{
 }
 
 #profile-pic{
-    width: 150px;
-    height: 150px;
+    width: 250px;
+    height: 250px;
     object-fit: cover;
     border-radius: 20%;
 }
@@ -105,6 +105,8 @@ li{
 
 #qualifications--list{
     list-style: none;
+    margin-left: -1em;
+    margin-top: -1em;
 }
 
 #wrapper--techstack__items{
