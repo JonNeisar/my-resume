@@ -7,11 +7,12 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="./styles/main.css">
+        <script defer src="app.js"></script>
     </head>
     <body>
         <div id="container--main">
 
-            <section id="wrapper--profile" class="section--page">
+            <section id="wrapper--profile" class="section--page hidden">
                 <img id="profile-pic" src="./assets/images/profile_pic.jpeg">
 
                 <div>
@@ -21,7 +22,7 @@
                 </div>  
             </section>
 
-            <section class="section--page">
+            <section class="section--page hidden">
 
                 <ul id="socials--list">
                     <li><a href="https://www.linkedin.com/in/jonatan-iglesias-belmonte-581aa3166/" target="_blank">Linkedin</a></li>
@@ -30,7 +31,7 @@
                 </ul>
             </section>
 
-            <section class="section--page">
+            <section class="section--page hidden">
                 <h2>Skills & Qualifications</h2>
                 <ul id="qualifications--list">
                     <li>✔️ 4 years of backend & frontend development.</li>
@@ -39,23 +40,23 @@
             </section>  
         </div>
 
-        <section class="section--page">
+        <section class="section--page hidden">
             <h2>Tech stack</h2>
         
             <div id="wrapper--techstack__items">
-                <div class="card--techstack"><span>Java, C#</span></div>
-                <div class="card--techstack"><span>Spring, Spring boot, .NET</span></div>
-                <div class="card--techstack"><span>GraphQL, RPC, OpenAPI, Kafka, IBM MQ</span></div>
-                <div class="card--techstack"><span>MongoDB, MySQL, Microsoft SQL Server</span></div>
-                <div class="card--techstack"><span>Junit, Mockito, Traffic Parrot</span></div>
+                <div class="card--techstack hidden"><span>Java, C#</span></div>
+                <div class="card--techstack hidden"><span>Spring, Spring boot, .NET</span></div>
+                <div class="card--techstack hidden"><span>GraphQL, RPC, OpenAPI, Kafka, IBM MQ</span></div>
+                <div class="card--techstack hidden"><span>MongoDB, MySQL, Microsoft SQL Server</span></div>
+                <div class="card--techstack hidden"><span>Junit, Mockito, Traffic Parrot</span></div>
             </div>
         </section>
 
-        <section id="work-history-wrapper" class="section--page">
+        <section id="work--history-wrapper" class="section--page hidden">
             <h2>Work History</h2>
         
             <div class="line-break"></div>
-            <div class="card--work-history">
+            <div class="card--work-history hidden">
                 <strong>🚧 SOFTWARE ENGINEER | TRILEUCO SOLUTIONS</strong>
                 <p>12/2019 - Present</p>
                 <p>Learned good fundamentals: SOLID, Clean code, DDD and testing. Worked on a bussiness driven project splitted on multiple microservices. Also mentoring and leading to the newest team members</p>
@@ -69,7 +70,7 @@
         
             <div class="line-break"></div>
         
-            <div class="card--work-history">
+            <div class="card--work-history hidden">
                 <strong>🚧 SOFTWARE DEVELOPER | NUNEGAL CONSULTING</strong>
                 <p>11/2018 - 12/2019</p>
                 <p>Develop and configure a POS app used on more than 100 countries</p>
@@ -81,7 +82,7 @@
         
             <div class="line-break"></div>
         
-            <div class="card--work-history">
+            <div class="card--work-history hidden">
                 <strong>🚧 INTERNSHIP | VIEWNEXT</strong>
                 <p>04/2013 - 06/2013</p>
                 <p>Working practice to obtain HNC</p>
@@ -93,13 +94,13 @@
         
             <div class="line-break"></div>
 
-            <section class="section--page">
-                <h2>Projects & Accomplishments</h2>
-            
-                <div class="card--project">
-                   <p><span>🏆 </span>Time Data Bank. Final year dissertation.</p>
-                </div>
-            </section>
+        </section>
+        <section class="section--page hidden">
+            <h2>Projects & Accomplishments</h2>
+        
+            <div class="card--project">
+               <p><span>🏆 </span>Time Data Bank. Final year dissertation.</p>
+            </div>
         </section>
     </body>
 </html>
